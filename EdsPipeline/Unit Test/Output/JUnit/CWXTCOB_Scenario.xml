@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 Apr 18, 2018 9:40:17 PM-->
+<testsuites>
+  <testsuite errors="2" failures="170" name="Project: 'EdsPipeline' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" tests="425">
+    <testcase classname="Project: 'EdsPipeline' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" name="Check for PARM_LTH"/>
+    <testcase classname="Project: 'EdsPipeline' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" name="Check for PARM_DATA"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTCOB_RPTFILE_WRITE_01">
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.0" name="Record 1: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.1" name="Record 2: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.2" name="Record 3: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for EMP_RUN_MM"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for EMP_RUN_DD"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for EMP_RUN_YY"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for EMP_PAGE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.4" name="Record 5: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.5" name="Record 6: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER9"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER10"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER11"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER12"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER13"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER14"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER15"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER16"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER17"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.8" name="Record 9: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		DAN PEARSON
+
+Expected Value:  JOHN SMITH</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_REGION"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_TYPE">
+      <failure>Check for EMP_DTL_TYPE failed
+
+Actual Value:    		S
+
+Expected Value:  H</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		12
+
+Expected Value:  10</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		31
+
+Expected Value:  15</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		92
+
+Expected Value:  81</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		27
+
+Expected Value:  38</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		850.00
+
+Expected Value:  1083.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		5600.00
+
+Expected Value:  0.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		6450.00
+
+Expected Value:  1083.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		MICHAEL DAYTON
+
+Expected Value:  ROY GARDNER</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_REGION">
+      <failure>Check for EMP_DTL_REGION failed
+
+Actual Value:    		SOUTH
+
+Expected Value:  NORTH</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_TYPE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		3
+
+Expected Value:  12</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		87
+
+Expected Value:  92</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		32
+
+Expected Value:  27</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		825.00
+
+Expected Value:  750.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		3333.00
+
+Expected Value:  3300.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		4158.00
+
+Expected Value:  4050.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		DENNIS WHITE
+
+Expected Value:  DAN PEARSON</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_REGION">
+      <failure>Check for EMP_DTL_REGION failed
+
+Actual Value:    		SOUTH
+
+Expected Value:  NORTH</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_TYPE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		4
+
+Expected Value:  7</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		5
+
+Expected Value:  20</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		93
+
+Expected Value:  89</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		26
+
+Expected Value:  30</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		1050.00
+
+Expected Value:  850.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		6000.00
+
+Expected Value:  1000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		7050.00
+
+Expected Value:  1850.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		VALERIE OLSEN
+
+Expected Value:  MICHAEL DAYTON</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_REGION">
+      <failure>Check for EMP_DTL_REGION failed
+
+Actual Value:    		EAST
+
+Expected Value:  SOUTH</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_TYPE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		10
+
+Expected Value:  8</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		15
+
+Expected Value:  30</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		81
+
+Expected Value:  82</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		38
+
+Expected Value:  37</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		900.00
+
+Expected Value:  825.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		3300.00
+
+Expected Value:  6000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		4200.00
+
+Expected Value:  6825.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		LAURA MARTIN
+
+Expected Value:  DENNIS WHITE</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_REGION">
+      <failure>Check for EMP_DTL_REGION failed
+
+Actual Value:    		EAST
+
+Expected Value:  SOUTH</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_TYPE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		5
+
+Expected Value:  2</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		1
+
+Expected Value:  29</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		94
+
+Expected Value:  88</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		25
+
+Expected Value:  32</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		1225.00
+
+Expected Value:  1050.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		1000.00
+
+Expected Value:  1120.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		2225.00
+
+Expected Value:  2170.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		MARCIA SULLIVAN
+
+Expected Value:  VALERIE OLSEN</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_REGION"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_TYPE">
+      <failure>Check for EMP_DTL_TYPE failed
+
+Actual Value:    		H
+
+Expected Value:  S</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		11
+
+Expected Value:  5</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		11
+
+Expected Value:  1</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		81
+
+Expected Value:  94</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		38
+
+Expected Value:  25</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		1200.00
+
+Expected Value:  900.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_OT">
+      <failure>Check for EMP_DTL_OT failed
+
+Actual Value:    		180.00
+
+Expected Value:  0.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		0.00
+
+Expected Value:  5600.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		1380.00
+
+Expected Value:  6500.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		JAMES MORRISON
+
+Expected Value:  LAURA MARTIN</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_REGION"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_TYPE">
+      <failure>Check for EMP_DTL_TYPE failed
+
+Actual Value:    		H
+
+Expected Value:  S</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		8
+
+Expected Value:  6</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		30
+
+Expected Value:  14</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		82
+
+Expected Value:  83</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		37
+
+Expected Value:  36</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		1017.50
+
+Expected Value:  1225.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		0.00
+
+Expected Value:  6000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		1017.50
+
+Expected Value:  7225.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		THOMAS LONG
+
+Expected Value:  MARCIA SULLIVAN</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_REGION">
+      <failure>Check for EMP_DTL_REGION failed
+
+Actual Value:    		WEST
+
+Expected Value:  EAST</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_TYPE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		7
+
+Expected Value:  4</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		20
+
+Expected Value:  5</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		89
+
+Expected Value:  93</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		30
+
+Expected Value:  26</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		1000.00
+
+Expected Value:  1200.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_OT">
+      <failure>Check for EMP_DTL_OT failed
+
+Actual Value:    		0.00
+
+Expected Value:  180.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_COMM"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		1000.00
+
+Expected Value:  1380.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		DONNA BROWN
+
+Expected Value:  JAMES MORRISON</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_REGION">
+      <failure>Check for EMP_DTL_REGION failed
+
+Actual Value:    		WEST
+
+Expected Value:  EAST</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_TYPE">
+      <failure>Check for EMP_DTL_TYPE failed
+
+Actual Value:    		S
+
+Expected Value:  H</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		6
+
+Expected Value:  9</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		14
+
+Expected Value:  13</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		83
+
+Expected Value:  91</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		36
+
+Expected Value:  28</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		1000.00
+
+Expected Value:  1017.50</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		6000.00
+
+Expected Value:  0.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		7000.00
+
+Expected Value:  1017.50</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		SAMUEL ADDAMS
+
+Expected Value:  THOMAS LONG</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_REGION"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_TYPE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		9
+
+Expected Value:  3</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		13
+
+Expected Value:  31</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		91
+
+Expected Value:  87</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		28
+
+Expected Value:  32</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		1100.00
+
+Expected Value:  1000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_OT">
+      <failure>Check for EMP_DTL_OT failed
+
+Actual Value:    		82.50
+
+Expected Value:  0.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_COMM"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		1182.50
+
+Expected Value:  1000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		MARK JOHNSON
+
+Expected Value:  DONNA BROWN</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_REGION"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_TYPE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		2
+
+Expected Value:  11</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		29
+
+Expected Value:  11</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		88
+
+Expected Value:  81</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		32
+
+Expected Value:  38</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		750.00
+
+Expected Value:  1000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		1120.00
+
+Expected Value:  3333.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		1870.00
+
+Expected Value:  4333.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		
+
+Expected Value:  SAMUEL ADDAMS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_REGION">
+      <failure>Check for EMP_DTL_REGION failed
+
+Actual Value:    		
+
+Expected Value:  WEST</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_TYPE">
+      <failure>Check for EMP_DTL_TYPE failed
+
+Actual Value:    		
+
+Expected Value:  H</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		
+
+Expected Value:  1</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_SLASH1">
+      <failure>Check for EMP_DTL_SLASH1 failed
+
+Actual Value:    		
+
+Expected Value:  /</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		
+
+Expected Value:  2</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_SLASH2">
+      <failure>Check for EMP_DTL_SLASH2 failed
+
+Actual Value:    		
+
+Expected Value:  /</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		
+
+Expected Value:  86</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		
+
+Expected Value:  34</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		0
+
+Expected Value:  1100.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_OT">
+      <failure>Check for EMP_DTL_OT failed
+
+Actual Value:    		0
+
+Expected Value:  82.50</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_COMM"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  1182.50</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    		   TOTAL
+
+Expected Value:  MARK JOHNSON</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_REGION">
+      <failure>Check for EMP_DTL_REGION failed
+
+Actual Value:    		
+
+Expected Value:  WEST</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_TYPE">
+      <failure>Check for EMP_DTL_TYPE failed
+
+Actual Value:    		
+
+Expected Value:  S</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_HIRE_MM">
+      <failure>Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    		
+
+Expected Value:  9</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_SLASH1">
+      <failure>Check for EMP_DTL_SLASH1 failed
+
+Actual Value:    		
+
+Expected Value:  /</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_HIRE_DD">
+      <failure>Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    		
+
+Expected Value:  30</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_SLASH2">
+      <failure>Check for EMP_DTL_SLASH2 failed
+
+Actual Value:    		
+
+Expected Value:  /</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_HIRE_YY">
+      <failure>Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    		
+
+Expected Value:  82</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure>Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    		
+
+Expected Value:  37</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_WAGES">
+      <failure>Check for EMP_DTL_WAGES failed
+
+Actual Value:    		0
+
+Expected Value:  750.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_OT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER7"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_COMM">
+      <failure>Check for EMP_DTL_COMM failed
+
+Actual Value:    		0
+
+Expected Value:  6000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    		37533.00
+
+Expected Value:  6750.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.22" name="Record 23: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.23" name="Record 24: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.23" name="Record 24: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:  TOTAL</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.23" name="Record 24: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.23" name="Record 24: Check for EMP_GRAND_TOTAL">
+      <failure>Check for EMP_GRAND_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  45366.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.24" name="Record 25: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.25" name="Record 26: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.26" name="Record 27: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.27" name="Record 28: Check for BLANK_LINE">
+      <failure>Check for BLANK_LINE failed
+
+Actual Value:    		 RUN DATE  02/29/20           REGIONAL SALES REPORT                     PAGE   2
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.28" name="Record 29: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:  RUN DATE</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for REG_RUN_MONTH">
+      <failure>Check for REG_RUN_MONTH failed
+
+Actual Value:    		
+
+Expected Value:  2</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  /</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for REG_RUN_DAY">
+      <failure>Check for REG_RUN_DAY failed
+
+Actual Value:    		
+
+Expected Value:  29</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for FILLER3">
+      <failure>Check for FILLER3 failed
+
+Actual Value:    		
+
+Expected Value:  /</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for REG_RUN_YEAR">
+      <failure>Check for REG_RUN_YEAR failed
+
+Actual Value:    		
+
+Expected Value:  20</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for FILLER5">
+      <failure>Check for FILLER5 failed
+
+Actual Value:    		
+
+Expected Value:  REGIONAL SALES REPORT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for FILLER7">
+      <failure>Check for FILLER7 failed
+
+Actual Value:    		
+
+Expected Value:  PAGE</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.29" name="Record 30: Check for REG_PAGE">
+      <failure>Check for REG_PAGE failed
+
+Actual Value:    		0
+
+Expected Value:  2</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.30" name="Record 31: Check for BLANK_LINE">
+      <failure>Check for BLANK_LINE failed
+
+Actual Value:    		 MANAGER         REGION   TOTAL SALES     SALARY     COMMISSION   TOTAL
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.31" name="Record 32: Check for BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		KATHY D
+
+Expected Value:  MANAGER</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		ETT
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER3">
+      <failure>Check for FILLER3 failed
+
+Actual Value:    		NORTH
+
+Expected Value:  REGION</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER5">
+      <failure>Check for FILLER5 failed
+
+Actual Value:    		  25000.00
+
+Expected Value:  TOTAL SALES</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER6">
+      <failure>Check for FILLER6 failed
+
+Actual Value:    		    1
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER7">
+      <failure>Check for FILLER7 failed
+
+Actual Value:    		500.00
+
+Expected Value:  SALARY</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER8"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER9">
+      <failure>Check for FILLER9 failed
+
+Actual Value:    		 6000.00
+
+Expected Value:  COMMISSION</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER10">
+      <failure>Check for FILLER10 failed
+
+Actual Value:    		  7
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER11">
+      <failure>Check for FILLER11 failed
+
+Actual Value:    		500.0
+
+Expected Value:  TOTAL</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.32" name="Record 33: Check for FILLER12">
+      <failure>Check for FILLER12 failed
+
+Actual Value:    		0
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.33" name="Record 34: Check for BLANK_LINE">
+      <failure>Check for BLANK_LINE failed
+
+Actual Value:    		 AUDREY CLARK    SOUTH     103000.00     1125.00      1600.00    2725.00
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for REG_DTL_MANAGER">
+      <failure>Check for REG_DTL_MANAGER failed
+
+Actual Value:    		KAREN JOHNSON
+
+Expected Value:  KATHY DETT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for REG_DTL_REGION">
+      <failure>Check for REG_DTL_REGION failed
+
+Actual Value:    		EAST
+
+Expected Value:  NORTH</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for REG_DTL_SALES">
+      <failure>Check for REG_DTL_SALES failed
+
+Actual Value:    		145000.00
+
+Expected Value:  80000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for REG_DTL_SALARY">
+      <failure>Check for REG_DTL_SALARY failed
+
+Actual Value:    		2000.00
+
+Expected Value:  1500.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for REG_DTL_COMM">
+      <failure>Check for REG_DTL_COMM failed
+
+Actual Value:    		2575.00
+
+Expected Value:  1600.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for REG_DTL_TOTAL">
+      <failure>Check for REG_DTL_TOTAL failed
+
+Actual Value:    		4575.00
+
+Expected Value:  3100.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.34" name="Record 35: Check for REG_DTL_COMMENT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for REG_DTL_MANAGER">
+      <failure>Check for REG_DTL_MANAGER failed
+
+Actual Value:    		SAM MILLS
+
+Expected Value:  AUDREY CLARK</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for REG_DTL_REGION">
+      <failure>Check for REG_DTL_REGION failed
+
+Actual Value:    		WEST
+
+Expected Value:  SOUTH</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for REG_DTL_SALES">
+      <failure>Check for REG_DTL_SALES failed
+
+Actual Value:    		130550.00
+
+Expected Value:  103000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for REG_DTL_SALARY">
+      <failure>Check for REG_DTL_SALARY failed
+
+Actual Value:    		1250.00
+
+Expected Value:  1125.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for REG_DTL_COMM">
+      <failure>Check for REG_DTL_COMM failed
+
+Actual Value:    		3625.00
+
+Expected Value:  2575.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for REG_DTL_TOTAL">
+      <failure>Check for REG_DTL_TOTAL failed
+
+Actual Value:    		4875.00
+
+Expected Value:  3700.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.35" name="Record 36: Check for REG_DTL_COMMENT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for REG_DTL_MANAGER">
+      <failure>Check for REG_DTL_MANAGER failed
+
+Actual Value:    		
+
+Expected Value:  KAREN JOHNSON</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for REG_DTL_REGION">
+      <failure>Check for REG_DTL_REGION failed
+
+Actual Value:    		
+
+Expected Value:  EAST</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for REG_DTL_SALES">
+      <failure>Check for REG_DTL_SALES failed
+
+Actual Value:    		0
+
+Expected Value:  145000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for REG_DTL_SALARY">
+      <failure>Check for REG_DTL_SALARY failed
+
+Actual Value:    		0
+
+Expected Value:  2000.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for REG_DTL_COMM">
+      <failure>Check for REG_DTL_COMM failed
+
+Actual Value:    		0
+
+Expected Value:  3625.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for REG_DTL_TOTAL">
+      <failure>Check for REG_DTL_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  5625.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.36" name="Record 37: Check for REG_DTL_COMMENT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for REG_DTL_MANAGER">
+      <failure>Check for REG_DTL_MANAGER failed
+
+Actual Value:    		   TOTAL
+
+Expected Value:  SAM MILLS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for REG_DTL_REGION">
+      <failure>Check for REG_DTL_REGION failed
+
+Actual Value:    		
+
+Expected Value:  WEST</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for REG_DTL_SALES">
+      <failure>Check for REG_DTL_SALES failed
+
+Actual Value:    		0
+
+Expected Value:  130550.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for REG_DTL_SALARY">
+      <failure>Check for REG_DTL_SALARY failed
+
+Actual Value:    		0
+
+Expected Value:  1250.00</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for FILLER4"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for REG_DTL_COMM">
+      <failure>Check for REG_DTL_COMM failed
+
+Actual Value:    		0
+
+Expected Value:  3263.75</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for FILLER5"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for REG_DTL_TOTAL">
+      <failure>Check for REG_DTL_TOTAL failed
+
+Actual Value:    		19675.00
+
+Expected Value:  4513.75</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for FILLER6"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.37" name="Record 38: Check for REG_DTL_COMMENT"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.38" name="Record 39: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.39" name="Record 40: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+</testsuites>
