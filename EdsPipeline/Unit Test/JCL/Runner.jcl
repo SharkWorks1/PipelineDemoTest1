@@ -4,6 +4,13 @@ ${TOTALTEST_JOBCARD}
 //*** THE JOB CARD MUST INCLUDE A NOTIFY STATEMENT SUCH 
 //*** AS NOTIFY=&SYSUID and also a REGION=0M parameter
 //*
+//*
+//*   SWAP DATE
+//*
+//XCHANGE EXEC PGM=XGCBATCH,
+// PARM='DATE=2020/02/29,TIME=02:59:59,SUBSYS=MXG1,STEP=RUNNER'
+//STEPLIB DD DISP=SHR,DSN=SYS2.CW.XGR17Y.SLXGLOAD
+//SYSPRINT DD SYSOUT=*
 //********************************************************************
 //* Execute Target Runner
 //********************************************************************
