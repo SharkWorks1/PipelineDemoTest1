@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180920-0235_707?>
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 15, 2018 9:18:19 AM-->
+<stub:stub xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB_EMPFILE_OPEN_01.stub" stubtype="QSAM OPEN" target="EMPFILE" token="50000">
+  <stub:description>Created: Nov 15, 2018 9:18:19 AM</stub:description>
+  <stub:stubdata id="0" name="EMPFILE">
+    <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_RECORD.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_RECORD.interface</stub:interface>
+  </stub:stubdata>
+</stub:stub>

@@ -4,7 +4,7 @@ ${TOTALTEST_JOBCARD}
 //*** THE JOB CARD MUST INCLUDE A NOTIFY STATEMENT SUCH 
 //*** AS NOTIFY=&SYSUID and also a REGION=0M parameter
 //*
-//*   Updated Loadlibs on 181112
+//*   Updated Loadlibs on 181112 by ELG 
 //*
 //*   SWAP DATE
 //*
