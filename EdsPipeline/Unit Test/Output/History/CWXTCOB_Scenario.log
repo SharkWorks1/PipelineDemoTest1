@@ -5,6 +5,35 @@
  STTR043I Initializing simulation environment for: COBOL V5
  STTR011I totaltest zTargetRunner v170200 on 2020-02-29 02:59.59��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
- CEE3501S The module CWXTCOB  was not found.
-          From compile unit TTTRUNNR at entry point TTTRUNNR at compile unit offset +00003430 at entry offset +00003430
-           at address 37503430.
+ STTR013I Processing test suite CWXTCOB_
+ STTR014I Processing test scenario CWXTCOB_
+ STTR028I Processing test case CWXTCOBC
+ STTR006I Executing target CWXTCOB
+ STTR008I All targets successfully executed
+
+***************** Output from TTOUT *****************
+
+ ---BNDTARGT---entry
+ --->>>modName = CWXTCOB , epName = CWXTCOB
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = CWXTCOB , epName = CWXTCOB
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
