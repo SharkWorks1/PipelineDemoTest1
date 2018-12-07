@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 18, 2018 5:48:59 PM-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Dec 7, 2018 10:34:34 AM-->
 <testExecutions version="1">
   <file path="C:\Users\ftsvm\git\EdsPipeline\EdsPipeline\Unit Test\Scenarios\CWXTCOB_Scenario.testscenario">
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.00001: Check for PARM_LTH"/>
@@ -1487,7 +1487,7 @@ Expected Value:  3263.75</failure>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00039: RPTFILE assertion.00001: Check for BLANK_LINE">
       <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
 
-Actual Value:                     WEST      130550.00        0.00      3263.75    3263.75
+Actual Value:     MARK JOHNSON    WEST      130550.00      750.00      3263.75    4013.75
 
 Expected Value:  </failure>
     </testCase>
