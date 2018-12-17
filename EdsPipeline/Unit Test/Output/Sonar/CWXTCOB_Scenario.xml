@@ -1,438 +1,1512 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Dec 7, 2018 10:34:34 AM-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Dec 17, 2018 8:32:09 AM-->
 <testExecutions version="1">
   <file path="C:\Users\ftsvm\git\EdsPipeline\EdsPipeline\Unit Test\Scenarios\CWXTCOB_Scenario.testscenario">
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.00001: Check for PARM_LTH"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.00002: Check for PARM_DATA"/>
   </file>
   <file path="C:\Users\ftsvm\git\EdsPipeline\EdsPipeline\Unit Test\Stubs\CWXTCOB_RPTFILE_WRITE_02.stub">
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00001: RPTFILE assertion.00001: Check for BLANK_LINE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00001: RPTFILE assertion.00001: Check for BLANK_LINE">
+      <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
+
+Actual Value:     INVALID EMPLOYEE TYPE
+
+Expected Value:  </failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00002: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00003: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00002: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00003: Check for EMP_RUN_MM"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00004: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00005: Check for EMP_RUN_DD"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00006: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00007: Check for EMP_RUN_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00002: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    
+
+Expected Value:  RUN DATE</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00003: Check for EMP_RUN_MM">
+      <failure message="Check for EMP_RUN_MM failed">Check for EMP_RUN_MM failed
+
+Actual Value:    
+
+Expected Value:  2</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00004: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    
+
+Expected Value:  /</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00005: Check for EMP_RUN_DD">
+      <failure message="Check for EMP_RUN_DD failed">Check for EMP_RUN_DD failed
+
+Actual Value:    
+
+Expected Value:  29</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00006: Check for FILLER3">
+      <failure message="Check for FILLER3 failed">Check for FILLER3 failed
+
+Actual Value:    
+
+Expected Value:  /</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00007: Check for EMP_RUN_YY">
+      <failure message="Check for EMP_RUN_YY failed">Check for EMP_RUN_YY failed
+
+Actual Value:    
+
+Expected Value:  20</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00008: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00009: Check for FILLER5"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00009: Check for FILLER5">
+      <failure message="Check for FILLER5 failed">Check for FILLER5 failed
+
+Actual Value:    
+
+Expected Value:  **KUSZYK HEADER**</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00010: Check for FILLER6"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00011: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00012: Check for EMP_PAGE"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00005: RPTFILE assertion.00001: Check for BLANK_LINE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00011: Check for FILLER7">
+      <failure message="Check for FILLER7 failed">Check for FILLER7 failed
+
+Actual Value:    
+
+Expected Value:  PAGE</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00004: RPTFILE assertion.00012: Check for EMP_PAGE">
+      <failure message="Check for EMP_PAGE failed">Check for EMP_PAGE failed
+
+Actual Value:    0
+
+Expected Value:  1</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00005: RPTFILE assertion.00001: Check for BLANK_LINE">
+      <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
+
+Actual Value:     RUN DATE  02/29/20       **KUSZYK HEADER**                             PAGE   1
+
+Expected Value:  </failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00006: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00007: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00007: RPTFILE assertion.00002: Check for FILLER1"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00007: RPTFILE assertion.00002: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    
+
+Expected Value:  HIRE</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00007: RPTFILE assertion.00003: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00007: RPTFILE assertion.00004: Check for FILLER3"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00007: RPTFILE assertion.00004: Check for FILLER3">
+      <failure message="Check for FILLER3 failed">Check for FILLER3 failed
+
+Actual Value:    
+
+Expected Value:  YRS OF</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00007: RPTFILE assertion.00005: Check for FILLER4"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00002: Check for FILLER1"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00002: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    
+
+Expected Value:  EMPLOYEE NAME</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00003: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00004: Check for FILLER3"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00004: Check for FILLER3">
+      <failure message="Check for FILLER3 failed">Check for FILLER3 failed
+
+Actual Value:    
+
+Expected Value:  REGION</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00005: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00006: Check for FILLER5"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00006: Check for FILLER5">
+      <failure message="Check for FILLER5 failed">Check for FILLER5 failed
+
+Actual Value:    
+
+Expected Value:  TYPE</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00007: Check for FILLER6"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00008: Check for FILLER7"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00008: Check for FILLER7">
+      <failure message="Check for FILLER7 failed">Check for FILLER7 failed
+
+Actual Value:    HIRE
+
+Expected Value:  DATE</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00009: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00010: Check for FILLER9"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00010: Check for FILLER9">
+      <failure message="Check for FILLER9 failed">Check for FILLER9 failed
+
+Actual Value:    YRS OF
+
+Expected Value:  SERVICE</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00011: Check for FILLER10"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00012: Check for FILLER11"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00012: Check for FILLER11">
+      <failure message="Check for FILLER11 failed">Check for FILLER11 failed
+
+Actual Value:    
+
+Expected Value:  SALARY</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00013: Check for FILLER12"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00014: Check for FILLER13"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00014: Check for FILLER13">
+      <failure message="Check for FILLER13 failed">Check for FILLER13 failed
+
+Actual Value:    
+
+Expected Value:  O/T</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00015: Check for FILLER14"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00016: Check for FILLER15"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00016: Check for FILLER15">
+      <failure message="Check for FILLER15 failed">Check for FILLER15 failed
+
+Actual Value:    
+
+Expected Value:  COMMISSION</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00017: Check for FILLER16"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00018: Check for FILLER17"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00009: RPTFILE assertion.00001: Check for BLANK_LINE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00008: RPTFILE assertion.00018: Check for FILLER17">
+      <failure message="Check for FILLER17 failed">Check for FILLER17 failed
+
+Actual Value:    
+
+Expected Value:  TOTAL</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00009: RPTFILE assertion.00001: Check for BLANK_LINE">
+      <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
+
+Actual Value:     EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL
+
+Expected Value:  </failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    
+
+Expected Value:  JOHN SMITH</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00003: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00004: Check for EMP_DTL_REGION">
+      <failure message="Check for EMP_DTL_REGION failed">Check for EMP_DTL_REGION failed
+
+Actual Value:    
+
+Expected Value:  NORTH</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00006: Check for EMP_DTL_TYPE">
+      <failure message="Check for EMP_DTL_TYPE failed">Check for EMP_DTL_TYPE failed
+
+Actual Value:    
+
+Expected Value:  H</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    
+
+Expected Value:  10</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1">
+      <failure message="Check for EMP_DTL_SLASH1 failed">Check for EMP_DTL_SLASH1 failed
+
+Actual Value:    
+
+Expected Value:  /</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    
+
+Expected Value:  15</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2">
+      <failure message="Check for EMP_DTL_SLASH2 failed">Check for EMP_DTL_SLASH2 failed
+
+Actual Value:    
+
+Expected Value:  /</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    
+
+Expected Value:  81</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    
+
+Expected Value:  38</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    0
+
+Expected Value:  1083.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00019: Check for FILLER7"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00010: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    0
+
+Expected Value:  1083.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    JOHN SMITH
+
+Expected Value:  ROY GARDNER</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00006: Check for EMP_DTL_TYPE">
+      <failure message="Check for EMP_DTL_TYPE failed">Check for EMP_DTL_TYPE failed
+
+Actual Value:    H
+
+Expected Value:  S</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    10
+
+Expected Value:  12</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    15
+
+Expected Value:  31</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    81
+
+Expected Value:  92</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    38
+
+Expected Value:  27</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    1083.00
+
+Expected Value:  750.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    0.00
+
+Expected Value:  3300.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00011: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    1083.00
+
+Expected Value:  4050.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    ROY GARDNER
+
+Expected Value:  DAN PEARSON</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00005: Check for FILLER2"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    12
+
+Expected Value:  7</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    31
+
+Expected Value:  20</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    92
+
+Expected Value:  89</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    27
+
+Expected Value:  30</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    750.00
+
+Expected Value:  850.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    3300.00
+
+Expected Value:  1000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00012: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    4050.00
+
+Expected Value:  1850.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    DAN PEARSON
+
+Expected Value:  MICHAEL DAYTON</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00003: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00004: Check for EMP_DTL_REGION">
+      <failure message="Check for EMP_DTL_REGION failed">Check for EMP_DTL_REGION failed
+
+Actual Value:    NORTH
+
+Expected Value:  SOUTH</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00005: Check for FILLER2"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    7
+
+Expected Value:  8</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    20
+
+Expected Value:  30</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    89
+
+Expected Value:  82</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    30
+
+Expected Value:  37</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    850.00
+
+Expected Value:  825.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    1000.00
+
+Expected Value:  6000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00013: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    1850.00
+
+Expected Value:  6825.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    MICHAEL DAYTON
+
+Expected Value:  DENNIS WHITE</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00005: Check for FILLER2"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    8
+
+Expected Value:  2</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    30
+
+Expected Value:  29</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    82
+
+Expected Value:  88</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    37
+
+Expected Value:  32</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    825.00
+
+Expected Value:  1050.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    6000.00
+
+Expected Value:  1120.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00014: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    6825.00
+
+Expected Value:  2170.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    DENNIS WHITE
+
+Expected Value:  VALERIE OLSEN</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00003: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00004: Check for EMP_DTL_REGION">
+      <failure message="Check for EMP_DTL_REGION failed">Check for EMP_DTL_REGION failed
+
+Actual Value:    SOUTH
+
+Expected Value:  EAST</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00005: Check for FILLER2"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    2
+
+Expected Value:  5</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    29
+
+Expected Value:  1</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    88
+
+Expected Value:  94</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    32
+
+Expected Value:  25</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    1050.00
+
+Expected Value:  900.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    1120.00
+
+Expected Value:  5600.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00015: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    2170.00
+
+Expected Value:  6500.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    VALERIE OLSEN
+
+Expected Value:  LAURA MARTIN</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00005: Check for FILLER2"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    5
+
+Expected Value:  6</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    1
+
+Expected Value:  14</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    94
+
+Expected Value:  83</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    25
+
+Expected Value:  36</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    900.00
+
+Expected Value:  1225.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    5600.00
+
+Expected Value:  6000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00016: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    6500.00
+
+Expected Value:  7225.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    LAURA MARTIN
+
+Expected Value:  MARCIA SULLIVAN</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00006: Check for EMP_DTL_TYPE">
+      <failure message="Check for EMP_DTL_TYPE failed">Check for EMP_DTL_TYPE failed
+
+Actual Value:    S
+
+Expected Value:  H</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    6
+
+Expected Value:  4</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    14
+
+Expected Value:  5</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    83
+
+Expected Value:  93</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    36
+
+Expected Value:  26</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    1225.00
+
+Expected Value:  1200.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00017: Check for FILLER6"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00018: Check for EMP_DTL_OT">
+      <failure message="Check for EMP_DTL_OT failed">Check for EMP_DTL_OT failed
+
+Actual Value:    0.00
+
+Expected Value:  180.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    6000.00
+
+Expected Value:  0.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00017: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    7225.00
+
+Expected Value:  1380.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    MARCIA SULLIVAN
+
+Expected Value:  JAMES MORRISON</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00005: Check for FILLER2"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    4
+
+Expected Value:  9</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    5
+
+Expected Value:  13</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    93
+
+Expected Value:  91</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    26
+
+Expected Value:  28</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    1200.00
+
+Expected Value:  1017.50</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00017: Check for FILLER6"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00018: Check for EMP_DTL_OT">
+      <failure message="Check for EMP_DTL_OT failed">Check for EMP_DTL_OT failed
+
+Actual Value:    180.00
+
+Expected Value:  0.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00019: Check for FILLER7"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00018: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    1380.00
+
+Expected Value:  1017.50</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    JAMES MORRISON
+
+Expected Value:  THOMAS LONG</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00003: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00004: Check for EMP_DTL_REGION">
+      <failure message="Check for EMP_DTL_REGION failed">Check for EMP_DTL_REGION failed
+
+Actual Value:    EAST
+
+Expected Value:  WEST</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00005: Check for FILLER2"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    9
+
+Expected Value:  3</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    13
+
+Expected Value:  31</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    91
+
+Expected Value:  87</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    28
+
+Expected Value:  32</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    1017.50
+
+Expected Value:  1000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00019: Check for FILLER7"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00019: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    1017.50
+
+Expected Value:  1000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    THOMAS LONG
+
+Expected Value:  DONNA BROWN</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00006: Check for EMP_DTL_TYPE">
+      <failure message="Check for EMP_DTL_TYPE failed">Check for EMP_DTL_TYPE failed
+
+Actual Value:    H
+
+Expected Value:  S</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    3
+
+Expected Value:  11</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    31
+
+Expected Value:  11</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    87
+
+Expected Value:  81</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    32
+
+Expected Value:  38</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00015: Check for FILLER5"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    0.00
+
+Expected Value:  3333.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00020: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    1000.00
+
+Expected Value:  4333.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    DONNA BROWN
+
+Expected Value:  SAMUEL ADDAMS</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00006: Check for EMP_DTL_TYPE">
+      <failure message="Check for EMP_DTL_TYPE failed">Check for EMP_DTL_TYPE failed
+
+Actual Value:    S
+
+Expected Value:  H</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    11
+
+Expected Value:  1</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    11
+
+Expected Value:  2</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    81
+
+Expected Value:  86</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    38
+
+Expected Value:  34</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    1000.00
+
+Expected Value:  1100.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00017: Check for FILLER6"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00018: Check for EMP_DTL_OT">
+      <failure message="Check for EMP_DTL_OT failed">Check for EMP_DTL_OT failed
+
+Actual Value:    0.00
+
+Expected Value:  82.50</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    3333.00
+
+Expected Value:  0.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00021: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    4333.00
+
+Expected Value:  1182.50</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00002: Check for EMP_DTL_NAME">
+      <failure message="Check for EMP_DTL_NAME failed">Check for EMP_DTL_NAME failed
+
+Actual Value:    SAMUEL ADDAMS
+
+Expected Value:  MARK JOHNSON</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00003: Check for FILLER1"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00004: Check for EMP_DTL_REGION"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00006: Check for EMP_DTL_TYPE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00006: Check for EMP_DTL_TYPE">
+      <failure message="Check for EMP_DTL_TYPE failed">Check for EMP_DTL_TYPE failed
+
+Actual Value:    H
+
+Expected Value:  S</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00007: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00008: Check for EMP_DTL_HIRE_MM">
+      <failure message="Check for EMP_DTL_HIRE_MM failed">Check for EMP_DTL_HIRE_MM failed
+
+Actual Value:    1
+
+Expected Value:  9</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00009: Check for EMP_DTL_SLASH1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00010: Check for EMP_DTL_HIRE_DD">
+      <failure message="Check for EMP_DTL_HIRE_DD failed">Check for EMP_DTL_HIRE_DD failed
+
+Actual Value:    2
+
+Expected Value:  30</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00011: Check for EMP_DTL_SLASH2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00012: Check for EMP_DTL_HIRE_YY">
+      <failure message="Check for EMP_DTL_HIRE_YY failed">Check for EMP_DTL_HIRE_YY failed
+
+Actual Value:    86
+
+Expected Value:  82</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00013: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00014: Check for EMP_DTL_YRS_OF_SERVICE">
+      <failure message="Check for EMP_DTL_YRS_OF_SERVICE failed">Check for EMP_DTL_YRS_OF_SERVICE failed
+
+Actual Value:    34
+
+Expected Value:  37</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00015: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00016: Check for EMP_DTL_WAGES">
+      <failure message="Check for EMP_DTL_WAGES failed">Check for EMP_DTL_WAGES failed
+
+Actual Value:    1100.00
+
+Expected Value:  750.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00017: Check for FILLER6"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00018: Check for EMP_DTL_OT">
+      <failure message="Check for EMP_DTL_OT failed">Check for EMP_DTL_OT failed
+
+Actual Value:    82.50
+
+Expected Value:  0.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
+      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
+
+Actual Value:    0.00
+
+Expected Value:  6000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00023: RPTFILE assertion.00001: Check for BLANK_LINE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00022: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    1182.50
+
+Expected Value:  6750.00</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00023: RPTFILE assertion.00001: Check for BLANK_LINE">
+      <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
+
+Actual Value:     MARK JOHNSON    WEST    S   09/30/82   37    750.00     0.00   6000.00  6750.00
+
+Expected Value:  </failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00024: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00024: RPTFILE assertion.00002: Check for FILLER1"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00024: RPTFILE assertion.00002: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    
+
+Expected Value:  TOTAL</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00024: RPTFILE assertion.00003: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00024: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00025: RPTFILE assertion.00001: Check for BLANK_LINE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00024: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL">
+      <failure message="Check for EMP_GRAND_TOTAL failed">Check for EMP_GRAND_TOTAL failed
+
+Actual Value:    0
+
+Expected Value:  45366.00</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00025: RPTFILE assertion.00001: Check for BLANK_LINE">
+      <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
+
+Actual Value:        TOTAL                                                               45366.00
+
+Expected Value:  </failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00026: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00027: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00028: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00029: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00002: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00003: Check for REG_RUN_MONTH"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00004: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00005: Check for REG_RUN_DAY"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00006: Check for FILLER3"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00007: Check for REG_RUN_YEAR"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00002: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    
+
+Expected Value:  RUN DATE</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00003: Check for REG_RUN_MONTH">
+      <failure message="Check for REG_RUN_MONTH failed">Check for REG_RUN_MONTH failed
+
+Actual Value:    
+
+Expected Value:  2</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00004: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    
+
+Expected Value:  /</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00005: Check for REG_RUN_DAY">
+      <failure message="Check for REG_RUN_DAY failed">Check for REG_RUN_DAY failed
+
+Actual Value:    
+
+Expected Value:  29</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00006: Check for FILLER3">
+      <failure message="Check for FILLER3 failed">Check for FILLER3 failed
+
+Actual Value:    
+
+Expected Value:  /</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00007: Check for REG_RUN_YEAR">
+      <failure message="Check for REG_RUN_YEAR failed">Check for REG_RUN_YEAR failed
+
+Actual Value:    
+
+Expected Value:  20</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00008: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00009: Check for FILLER5"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00009: Check for FILLER5">
+      <failure message="Check for FILLER5 failed">Check for FILLER5 failed
+
+Actual Value:    
+
+Expected Value:  REGIONAL SALES REPORT</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00010: Check for FILLER6"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00011: Check for FILLER7"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00012: Check for REG_PAGE"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00031: RPTFILE assertion.00001: Check for BLANK_LINE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00011: Check for FILLER7">
+      <failure message="Check for FILLER7 failed">Check for FILLER7 failed
+
+Actual Value:    
+
+Expected Value:  PAGE</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00030: RPTFILE assertion.00012: Check for REG_PAGE">
+      <failure message="Check for REG_PAGE failed">Check for REG_PAGE failed
+
+Actual Value:    0
+
+Expected Value:  2</failure>
+    </testCase>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00031: RPTFILE assertion.00001: Check for BLANK_LINE">
+      <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
+
+Actual Value:     RUN DATE  02/29/20           REGIONAL SALES REPORT                     PAGE   2
+
+Expected Value:  </failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00032: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00002: Check for FILLER1"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00002: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    
+
+Expected Value:  MANAGER</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00003: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00004: Check for FILLER3"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00004: Check for FILLER3">
+      <failure message="Check for FILLER3 failed">Check for FILLER3 failed
+
+Actual Value:    
+
+Expected Value:  REGION</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00005: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00006: Check for FILLER5"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00006: Check for FILLER5">
+      <failure message="Check for FILLER5 failed">Check for FILLER5 failed
+
+Actual Value:    
+
+Expected Value:  TOTAL SALES</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00007: Check for FILLER6"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00008: Check for FILLER7"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00008: Check for FILLER7">
+      <failure message="Check for FILLER7 failed">Check for FILLER7 failed
+
+Actual Value:    
+
+Expected Value:  SALARY</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00009: Check for FILLER8"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00010: Check for FILLER9"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00010: Check for FILLER9">
+      <failure message="Check for FILLER9 failed">Check for FILLER9 failed
+
+Actual Value:    
+
+Expected Value:  COMMISSION</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00011: Check for FILLER10"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00012: Check for FILLER11"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00012: Check for FILLER11">
+      <failure message="Check for FILLER11 failed">Check for FILLER11 failed
+
+Actual Value:    
+
+Expected Value:  TOTAL</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00033: RPTFILE assertion.00013: Check for FILLER12"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00034: RPTFILE assertion.00001: Check for BLANK_LINE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00034: RPTFILE assertion.00001: Check for BLANK_LINE">
+      <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
+
+Actual Value:     MANAGER         REGION   TOTAL SALES     SALARY     COMMISSION   TOTAL
+
+Expected Value:  </failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00001: Check for FILLER0"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00002: Check for REG_DTL_MANAGER"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00003: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00004: Check for REG_DTL_REGION"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00004: Check for REG_DTL_REGION">
+      <failure message="Check for REG_DTL_REGION failed">Check for REG_DTL_REGION failed
+
+Actual Value:    
+
+Expected Value:  NORTH</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00006: Check for REG_DTL_SALES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00006: Check for REG_DTL_SALES">
+      <failure message="Check for REG_DTL_SALES failed">Check for REG_DTL_SALES failed
+
+Actual Value:    0
+
+Expected Value:  80000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00007: Check for FILLER3"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00008: Check for REG_DTL_SALARY"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00009: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00010: Check for REG_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00010: Check for REG_DTL_COMM">
+      <failure message="Check for REG_DTL_COMM failed">Check for REG_DTL_COMM failed
+
+Actual Value:    0
+
+Expected Value:  1600.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00011: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00012: Check for REG_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00012: Check for REG_DTL_TOTAL">
+      <failure message="Check for REG_DTL_TOTAL failed">Check for REG_DTL_TOTAL failed
+
+Actual Value:    0
+
+Expected Value:  1600.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00013: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00035: RPTFILE assertion.00014: Check for REG_DTL_COMMENT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00001: Check for FILLER0"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00002: Check for REG_DTL_MANAGER"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00003: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00004: Check for REG_DTL_REGION"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00004: Check for REG_DTL_REGION">
+      <failure message="Check for REG_DTL_REGION failed">Check for REG_DTL_REGION failed
+
+Actual Value:    NORTH
+
+Expected Value:  SOUTH</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00006: Check for REG_DTL_SALES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00006: Check for REG_DTL_SALES">
+      <failure message="Check for REG_DTL_SALES failed">Check for REG_DTL_SALES failed
+
+Actual Value:    80000.00
+
+Expected Value:  103000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00007: Check for FILLER3"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00008: Check for REG_DTL_SALARY"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00009: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00010: Check for REG_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00010: Check for REG_DTL_COMM">
+      <failure message="Check for REG_DTL_COMM failed">Check for REG_DTL_COMM failed
+
+Actual Value:    1600.00
+
+Expected Value:  2575.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00011: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00012: Check for REG_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00012: Check for REG_DTL_TOTAL">
+      <failure message="Check for REG_DTL_TOTAL failed">Check for REG_DTL_TOTAL failed
+
+Actual Value:    1600.00
+
+Expected Value:  2575.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00013: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00036: RPTFILE assertion.00014: Check for REG_DTL_COMMENT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00001: Check for FILLER0"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00002: Check for REG_DTL_MANAGER"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00003: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00004: Check for REG_DTL_REGION"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00004: Check for REG_DTL_REGION">
+      <failure message="Check for REG_DTL_REGION failed">Check for REG_DTL_REGION failed
+
+Actual Value:    SOUTH
+
+Expected Value:  EAST</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00006: Check for REG_DTL_SALES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00006: Check for REG_DTL_SALES">
+      <failure message="Check for REG_DTL_SALES failed">Check for REG_DTL_SALES failed
+
+Actual Value:    103000.00
+
+Expected Value:  145000.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00007: Check for FILLER3"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00008: Check for REG_DTL_SALARY"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00009: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00010: Check for REG_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00010: Check for REG_DTL_COMM">
+      <failure message="Check for REG_DTL_COMM failed">Check for REG_DTL_COMM failed
+
+Actual Value:    2575.00
+
+Expected Value:  3625.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00011: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00012: Check for REG_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00012: Check for REG_DTL_TOTAL">
+      <failure message="Check for REG_DTL_TOTAL failed">Check for REG_DTL_TOTAL failed
+
+Actual Value:    2575.00
+
+Expected Value:  3625.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00013: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00037: RPTFILE assertion.00014: Check for REG_DTL_COMMENT"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00001: Check for FILLER0"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00002: Check for REG_DTL_MANAGER"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00003: Check for FILLER1"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00004: Check for REG_DTL_REGION"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00004: Check for REG_DTL_REGION">
+      <failure message="Check for REG_DTL_REGION failed">Check for REG_DTL_REGION failed
+
+Actual Value:    EAST
+
+Expected Value:  WEST</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00005: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00006: Check for REG_DTL_SALES"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00006: Check for REG_DTL_SALES">
+      <failure message="Check for REG_DTL_SALES failed">Check for REG_DTL_SALES failed
+
+Actual Value:    145000.00
+
+Expected Value:  130550.00</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00007: Check for FILLER3"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00008: Check for REG_DTL_SALARY"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00009: Check for FILLER4"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00010: Check for REG_DTL_COMM"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00010: Check for REG_DTL_COMM">
+      <failure message="Check for REG_DTL_COMM failed">Check for REG_DTL_COMM failed
+
+Actual Value:    3625.00
+
+Expected Value:  3263.75</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00011: Check for FILLER5"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00012: Check for REG_DTL_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00012: Check for REG_DTL_TOTAL">
+      <failure message="Check for REG_DTL_TOTAL failed">Check for REG_DTL_TOTAL failed
+
+Actual Value:    3625.00
+
+Expected Value:  3263.75</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00013: Check for FILLER6"/>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00038: RPTFILE assertion.00014: Check for REG_DTL_COMMENT"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00039: RPTFILE assertion.00001: Check for BLANK_LINE"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00039: RPTFILE assertion.00001: Check for BLANK_LINE">
+      <failure message="Check for BLANK_LINE failed">Check for BLANK_LINE failed
+
+Actual Value:                     WEST      130550.00        0.00      3263.75    3263.75
+
+Expected Value:  </failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00040: RPTFILE assertion.00001: Check for FILLER0"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00040: RPTFILE assertion.00002: Check for FILLER1"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00040: RPTFILE assertion.00002: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    
+
+Expected Value:  TOTAL</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00040: RPTFILE assertion.00003: Check for FILLER2"/>
-    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00040: RPTFILE assertion.00004: Check for MGMT_GRAND_TOTAL"/>
+    <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00040: RPTFILE assertion.00004: Check for MGMT_GRAND_TOTAL">
+      <failure message="Check for MGMT_GRAND_TOTAL failed">Check for MGMT_GRAND_TOTAL failed
+
+Actual Value:    0
+
+Expected Value:  11063.75</failure>
+    </testCase>
     <testCase duration="0" name="EdsPipeline.CWXTCOB_Scenario.00001: CWXTCOBCase2.CWXTCOB_RPTFILE_WRITE_02.00040: RPTFILE assertion.00005: Check for FILLER3"/>
   </file>
 </testExecutions>
